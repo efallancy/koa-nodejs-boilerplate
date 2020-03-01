@@ -1,0 +1,12 @@
+{
+  "extends": "./node_modules/@emmafallancy/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["dom", "esnext"],
+    "outDir": "build",
+    "rootDir": "src",
+  },
+  "include": ["src", "typings"],
+  "exclude": ["node_modules"]
+}
