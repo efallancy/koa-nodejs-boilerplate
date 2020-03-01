@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "format": "pretty-quick '**/*.{js,ts}'",
+    "format": "prettier --write '**/*.{js,ts}'",
     "start": "yarn build && node build/index.js",
     "start:dev": "nodemon --watch src -e ts --exec 'ts-node src/index.ts'",
     "test": "jest"
